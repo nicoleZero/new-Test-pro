@@ -1,0 +1,241 @@
+2020-05-21 15:22:23,761 - INFO - Could not connect to port 4723 on host localhost
+2020-05-21 15:22:23,762 - INFO - Could not get IP address for host: localhost
+2020-05-21 15:22:23,762 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-21 15:22:23,763 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-05-21 15:22:27,771 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-21 15:22:27,772 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027E59018640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-05-21 15:22:27,774 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-05-21 15:22:31,780 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-05-21 15:22:31,781 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027E59018790>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-05-21 15:22:31,781 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-05-21 15:22:35,787 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-05-21 15:22:35,787 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027E590188E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2020-05-21 15:22:35,787 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-05-21 15:22:39,795 - DEBUG - HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027E59018A30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-05-22 14:45:48,899 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 14:45:48,901 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 14:45:53,703 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-22 14:45:53,703 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-22 14:45:53,703 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/c4ae9877-fdbf-4553-907d-3514a76e7473
+2020-05-22 14:45:53,705 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/c4ae9877-fdbf-4553-907d-3514a76e7473 HTTP/1.1" 200 789
+2020-05-22 14:45:53,706 - DEBUG - Finished Request
+2020-05-22 14:45:55,816 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-22 14:45:55,817 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 14:45:55,849 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 14:45:55,850 - DEBUG - Finished Request
+2020-05-22 14:45:55,850 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-22 14:47:51,678 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 14:47:51,686 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 14:47:56,574 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-22 14:47:56,575 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-22 14:47:56,575 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/d48e0ff2-fa9a-4e59-b417-77a9eb684d5f
+2020-05-22 14:47:56,577 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/d48e0ff2-fa9a-4e59-b417-77a9eb684d5f HTTP/1.1" 200 789
+2020-05-22 14:47:56,578 - DEBUG - Finished Request
+2020-05-22 14:47:58,665 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-22 14:47:58,666 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 14:47:58,691 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 14:47:58,691 - DEBUG - Finished Request
+2020-05-22 14:47:58,691 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-22 15:22:28,946 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 15:22:28,949 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 15:22:33,889 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-22 15:22:33,890 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-22 15:22:33,890 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/66727ba8-908f-48bb-85f7-eb6a9ab1ee19
+2020-05-22 15:22:33,896 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/66727ba8-908f-48bb-85f7-eb6a9ab1ee19 HTTP/1.1" 200 789
+2020-05-22 15:22:33,896 - DEBUG - Finished Request
+2020-05-22 15:22:36,145 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-22 15:22:36,145 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 15:22:36,175 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 15:22:36,175 - DEBUG - Finished Request
+2020-05-22 15:22:36,176 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-22 17:04:34,475 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 17:04:34,476 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 17:04:39,595 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-22 17:04:39,596 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-22 17:04:39,596 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/b6ef2181-db32-41ef-978e-488b7629910e
+2020-05-22 17:04:39,608 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/b6ef2181-db32-41ef-978e-488b7629910e HTTP/1.1" 200 789
+2020-05-22 17:04:39,608 - DEBUG - Finished Request
+2020-05-22 17:04:41,727 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-22 17:04:41,727 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 17:04:41,758 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 17:04:41,758 - DEBUG - Finished Request
+2020-05-22 17:04:41,758 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-22 17:04:56,894 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 17:04:56,895 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 17:04:56,929 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 17:04:56,929 - DEBUG - Finished Request
+2020-05-22 17:04:59,035 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-22 17:04:59,035 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 17:04:59,087 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 17:04:59,087 - DEBUG - Finished Request
+2020-05-22 17:04:59,088 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-22 17:05:01,112 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-22 17:05:01,112 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-22 17:05:01,145 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-22 17:05:01,146 - DEBUG - Finished Request
+2020-05-25 09:36:07,849 - DEBUG - ERROR:Start directory is not importable: 'C:\\Users\\jiang\\PycharmProjects\\AndroiUiaotomator\\Test\\Testcase'
+2020-05-25 09:36:44,457 - DEBUG - ERROR:Start directory is not importable: 'C:\\Users\\jiang\\PycharmProjects\\AndroiUiaotomator\\Test\\Testcase'
+2020-05-25 09:37:05,535 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:37:05,540 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:37:11,623 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:37:11,623 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:37:11,624 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/46135f9b-e66d-49dd-9a47-2909d67ba578
+2020-05-25 09:37:11,631 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/46135f9b-e66d-49dd-9a47-2909d67ba578 HTTP/1.1" 200 789
+2020-05-25 09:37:11,631 - DEBUG - Finished Request
+2020-05-25 09:37:13,785 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:37:13,786 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:37:13,811 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:37:13,812 - DEBUG - Finished Request
+2020-05-25 09:37:13,812 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:38:49,554 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:38:49,554 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:38:54,410 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:38:54,410 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:38:54,411 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/247cb1dd-426d-4707-8f33-b0c306594032
+2020-05-25 09:38:54,421 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/247cb1dd-426d-4707-8f33-b0c306594032 HTTP/1.1" 200 789
+2020-05-25 09:38:54,421 - DEBUG - Finished Request
+2020-05-25 09:38:56,531 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:38:56,531 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:38:56,563 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:38:56,563 - DEBUG - Finished Request
+2020-05-25 09:38:56,564 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:40:42,835 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:40:42,837 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:47,756 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:40:47,756 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:40:47,760 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443
+2020-05-25 09:40:47,766 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443 HTTP/1.1" 200 713
+2020-05-25 09:40:47,766 - DEBUG - Finished Request
+2020-05-25 09:40:47,767 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:47,767 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:48,435 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 500 195
+2020-05-25 09:40:48,436 - DEBUG - Finished Request
+2020-05-25 09:40:48,936 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:48,936 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:48,960 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 500 195
+2020-05-25 09:40:48,961 - DEBUG - Finished Request
+2020-05-25 09:40:49,461 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:49,461 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:49,477 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 500 195
+2020-05-25 09:40:49,477 - DEBUG - Finished Request
+2020-05-25 09:40:49,978 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:49,978 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:50,006 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 500 195
+2020-05-25 09:40:50,006 - DEBUG - Finished Request
+2020-05-25 09:40:50,507 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:50,507 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:50,522 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 500 195
+2020-05-25 09:40:50,522 - DEBUG - Finished Request
+2020-05-25 09:40:51,023 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:51,023 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:51,414 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 200 87
+2020-05-25 09:40:51,414 - DEBUG - Finished Request
+2020-05-25 09:40:51,415 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/iv_protocol", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:51,415 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:51,422 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 200 87
+2020-05-25 09:40:51,422 - DEBUG - Finished Request
+2020-05-25 09:40:51,422 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/2/click {"id": "2", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:51,423 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:54,536 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/2/click HTTP/1.1" 200 76
+2020-05-25 09:40:54,537 - DEBUG - Finished Request
+2020-05-25 09:40:54,537 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/1/click {"id": "1", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:54,538 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:54,656 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/1/click HTTP/1.1" 200 76
+2020-05-25 09:40:54,657 - DEBUG - Finished Request
+2020-05-25 09:40:54,657 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/et_user", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:54,657 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:55,274 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 200 87
+2020-05-25 09:40:55,275 - DEBUG - Finished Request
+2020-05-25 09:40:55,276 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/3/value {"text": "18221730139", "value": ["1", "8", "2", "2", "1", "7", "3", "0", "1", "3", "9"], "id": "3", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:55,277 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:40:59,890 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/3/value HTTP/1.1" 200 76
+2020-05-25 09:40:59,891 - DEBUG - Finished Request
+2020-05-25 09:40:59,891 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element {"using": "id", "value": "org.ecomo.tap:id/et_password", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:40:59,891 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:41:00,426 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element HTTP/1.1" 200 87
+2020-05-25 09:41:00,426 - DEBUG - Finished Request
+2020-05-25 09:41:00,427 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/4/value {"text": "18221730139", "value": ["1", "8", "2", "2", "1", "7", "3", "0", "1", "3", "9"], "id": "4", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:41:00,427 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:41:05,031 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/element/4/value HTTP/1.1" 200 76
+2020-05-25 09:41:05,031 - DEBUG - Finished Request
+2020-05-25 09:41:05,032 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/elements {"using": "class name", "value": "android.widget.Button", "sessionId": "15f726e1-04e0-4ff0-a846-9c37bdb28443"}
+2020-05-25 09:41:05,032 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:41:05,576 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/15f726e1-04e0-4ff0-a846-9c37bdb28443/elements HTTP/1.1" 200 121
+2020-05-25 09:41:05,577 - DEBUG - Finished Request
+2020-05-25 09:41:05,577 - DEBUG - 'list' object has no attribute 'click'
+2020-05-25 09:41:07,586 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:41:07,587 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:41:07,612 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:41:07,612 - DEBUG - Finished Request
+2020-05-25 09:43:04,571 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:43:04,571 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:43:09,392 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:43:09,392 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:43:09,392 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/b6a6b779-6a74-4b4e-83c2-7a7e96082e80
+2020-05-25 09:43:09,398 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/b6a6b779-6a74-4b4e-83c2-7a7e96082e80 HTTP/1.1" 200 789
+2020-05-25 09:43:09,398 - DEBUG - Finished Request
+2020-05-25 09:43:11,528 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:43:11,529 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:43:11,574 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:43:11,574 - DEBUG - Finished Request
+2020-05-25 09:43:11,574 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:44:17,339 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:44:17,340 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:44:22,364 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:44:22,365 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:44:22,365 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/7450e183-6477-4328-8850-77eedee76131
+2020-05-25 09:44:22,369 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/7450e183-6477-4328-8850-77eedee76131 HTTP/1.1" 200 789
+2020-05-25 09:44:22,370 - DEBUG - Finished Request
+2020-05-25 09:44:24,509 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:44:24,509 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:44:24,535 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:44:24,535 - DEBUG - Finished Request
+2020-05-25 09:44:24,535 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:49:27,730 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:49:27,735 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:49:32,587 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:49:32,590 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:49:32,590 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/95a5f656-97f5-4b08-9ca7-51eba1fedfbe
+2020-05-25 09:49:32,594 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/95a5f656-97f5-4b08-9ca7-51eba1fedfbe HTTP/1.1" 200 789
+2020-05-25 09:49:32,595 - DEBUG - Finished Request
+2020-05-25 09:49:34,723 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:49:34,723 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:49:34,743 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:49:34,743 - DEBUG - Finished Request
+2020-05-25 09:49:34,743 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:57:37,052 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-05-25 09:57:37,053 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:57:41,976 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-25 09:57:41,976 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-25 09:57:41,976 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135
+2020-05-25 09:57:41,981 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135 HTTP/1.1" 200 789
+2020-05-25 09:57:41,981 - DEBUG - Finished Request
+2020-05-25 09:57:44,302 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-25 09:57:44,303 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:57:44,350 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-05-25 09:57:44,350 - DEBUG - Finished Request
+2020-05-25 09:57:44,351 - DEBUG - Message: A new session could not be created. (Original error: Requested a new session but one was in progress)
+
+2020-05-25 09:57:44,415 - INFO - 查找元素:org.ecomo.tap:id/btn_login
+2020-05-25 09:57:44,416 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "5cf5d330-42ac-4111-bb91-007fb236d135"}
+2020-05-25 09:57:44,416 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:57:44,440 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element HTTP/1.1" 500 195
+2020-05-25 09:57:44,441 - DEBUG - Finished Request
+2020-05-25 09:57:45,441 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "5cf5d330-42ac-4111-bb91-007fb236d135"}
+2020-05-25 09:57:45,441 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:57:45,541 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element HTTP/1.1" 200 87
+2020-05-25 09:57:45,542 - DEBUG - Finished Request
+2020-05-25 09:57:45,542 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element/1/click {"id": "1", "sessionId": "5cf5d330-42ac-4111-bb91-007fb236d135"}
+2020-05-25 09:57:45,543 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-25 09:57:48,677 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/5cf5d330-42ac-4111-bb91-007fb236d135/element/1/click HTTP/1.1" 200 76
+2020-05-25 09:57:48,677 - DEBUG - Finished Request

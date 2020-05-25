@@ -1,0 +1,154 @@
+2020-05-20 11:57:29,206 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-20 11:57:29,210 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:33,907 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-20 11:57:33,908 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-20 11:57:33,908 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a
+2020-05-20 11:57:33,915 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a HTTP/1.1" 200 713
+2020-05-20 11:57:33,916 - DEBUG - Finished Request
+2020-05-20 11:57:33,916 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:33,917 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:34,582 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:34,583 - DEBUG - Finished Request
+2020-05-20 11:57:35,083 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:35,083 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:35,097 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:35,098 - DEBUG - Finished Request
+2020-05-20 11:57:35,598 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:35,598 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:35,613 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:35,613 - DEBUG - Finished Request
+2020-05-20 11:57:36,113 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:36,113 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:36,474 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:36,474 - DEBUG - Finished Request
+2020-05-20 11:57:36,974 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:36,974 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:36,990 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:36,990 - DEBUG - Finished Request
+2020-05-20 11:57:37,491 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:37,491 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:37,512 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:37,513 - DEBUG - Finished Request
+2020-05-20 11:57:38,013 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:38,013 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:38,322 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:38,322 - DEBUG - Finished Request
+2020-05-20 11:57:38,824 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:38,824 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:38,845 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:38,845 - DEBUG - Finished Request
+2020-05-20 11:57:39,346 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:39,346 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:39,368 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:39,368 - DEBUG - Finished Request
+2020-05-20 11:57:39,869 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:39,869 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:39,887 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:39,888 - DEBUG - Finished Request
+2020-05-20 11:57:40,389 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:40,390 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:40,423 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:40,423 - DEBUG - Finished Request
+2020-05-20 11:57:40,923 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:40,923 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:40,952 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:40,952 - DEBUG - Finished Request
+2020-05-20 11:57:41,453 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:41,453 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:41,471 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:41,471 - DEBUG - Finished Request
+2020-05-20 11:57:41,971 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:41,971 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:41,992 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:41,992 - DEBUG - Finished Request
+2020-05-20 11:57:42,492 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:42,492 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:42,513 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:42,513 - DEBUG - Finished Request
+2020-05-20 11:57:43,015 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:43,015 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:43,058 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:43,059 - DEBUG - Finished Request
+2020-05-20 11:57:43,560 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "ec0faec7-bc6e-4297-8990-f993b4a0a05a"}
+2020-05-20 11:57:43,560 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 11:57:43,579 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/ec0faec7-bc6e-4297-8990-f993b4a0a05a/element HTTP/1.1" 500 195
+2020-05-20 11:57:43,579 - DEBUG - Finished Request
+2020-05-20 11:57:44,079 - DEBUG - Message: 
+
+2020-05-20 13:26:17,381 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "4.4.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true}}
+2020-05-20 13:26:17,384 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:22,417 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-05-20 13:26:22,418 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-05-20 13:26:22,418 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13
+2020-05-20 13:26:22,420 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13 HTTP/1.1" 200 713
+2020-05-20 13:26:22,420 - DEBUG - Finished Request
+2020-05-20 13:26:22,421 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:22,421 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:23,035 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:23,036 - DEBUG - Finished Request
+2020-05-20 13:26:23,538 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:23,539 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:23,557 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:23,557 - DEBUG - Finished Request
+2020-05-20 13:26:24,057 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:24,057 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:24,072 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:24,072 - DEBUG - Finished Request
+2020-05-20 13:26:24,574 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:24,574 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:24,587 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:24,587 - DEBUG - Finished Request
+2020-05-20 13:26:25,088 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:25,088 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:25,104 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:25,105 - DEBUG - Finished Request
+2020-05-20 13:26:25,605 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:25,605 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:26,031 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:26,032 - DEBUG - Finished Request
+2020-05-20 13:26:26,533 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:26,533 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:26,577 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:26,577 - DEBUG - Finished Request
+2020-05-20 13:26:27,078 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:27,078 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:27,546 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:27,547 - DEBUG - Finished Request
+2020-05-20 13:26:28,047 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:28,047 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:28,074 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:28,074 - DEBUG - Finished Request
+2020-05-20 13:26:28,575 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:28,576 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:28,593 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:28,593 - DEBUG - Finished Request
+2020-05-20 13:26:29,094 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:29,094 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:29,115 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:29,115 - DEBUG - Finished Request
+2020-05-20 13:26:29,616 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:29,616 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:29,634 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:29,635 - DEBUG - Finished Request
+2020-05-20 13:26:30,136 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:30,136 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:30,170 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:30,170 - DEBUG - Finished Request
+2020-05-20 13:26:30,670 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:30,670 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:30,691 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:30,691 - DEBUG - Finished Request
+2020-05-20 13:26:31,192 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:31,192 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:31,216 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:31,216 - DEBUG - Finished Request
+2020-05-20 13:26:31,717 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:31,718 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:31,753 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:31,753 - DEBUG - Finished Request
+2020-05-20 13:26:32,253 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element {"using": "id", "value": "org.ecomo.tap:id/btn_login", "sessionId": "9064efd8-b77a-4837-9af7-cb51cb1f5d13"}
+2020-05-20 13:26:32,253 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-05-20 13:26:32,273 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/9064efd8-b77a-4837-9af7-cb51cb1f5d13/element HTTP/1.1" 500 195
+2020-05-20 13:26:32,273 - DEBUG - Finished Request
+2020-05-20 13:26:32,773 - DEBUG - Message: 
+
