@@ -11,7 +11,7 @@ import os
 import logging
 
 try:
-    workbook = xlrd.open_workbook(r"C:\Users\jiang\Desktop\C端APP\一目APP.xlsx")
+    workbook = xlrd.open_workbook(r"D:\jiangsisi\1\workfile\C端APP\一目APP.xlsx")
     names = workbook.sheet_names()
     worksheet = workbook.sheet_by_index(0)
     nrows=worksheet.nrows

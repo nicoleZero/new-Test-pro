@@ -12,7 +12,7 @@ logging.basicConfig(filename='my.log', level=logging.DEBUG, format=LOG_FORMAT)
 try:
     desire_caps = {}
     desire_caps['platformName'] = 'Android'
-    desire_caps['platformVersion'] = '4.4.2'
+    desire_caps['platformVersion'] = '7.1.2'
     desire_caps['deviceName'] = '127.0.0.1:62001'
     # desire_caps['app'] = PATH(r"C:\app-release.apk")
     desire_caps['appPackage'] = 'org.ecomo.tap'

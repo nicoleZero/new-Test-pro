@@ -1,6 +1,7 @@
+# coding=utf-8
 import logging
 from selenium import webdriver
-
+import os
 '''
 提供当前的基础操作，下载apk和连接驱动
 '''
@@ -12,7 +13,7 @@ class install_app():
     def __init__(self):
         self.desire_caps = {}
         self.desire_caps['platformName'] = 'Android'
-        self.desire_caps['platformVersion'] = '4.4.2'
+        self.desire_caps['platformVersion'] = '7.1.2'
         self.desire_caps['deviceName'] = '127.0.0.1:62001'
         self.desire_caps['appPackage'] = 'org.ecomo.tap'
         self.desire_caps['appActivity'] = 'org.ecomo.user.mvp.SplashActivity'
@@ -20,9 +21,17 @@ class install_app():
         self.desire_caps['resetKeyboard'] = True
         self.desire_caps['noReset'] = True
         self.desire_caps['sessionOverride'] = True
+        #print(self.desire_caps)
     def install_apk(self):
-        driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desire_caps)
+        #driver = webdriver.Remote('http://localhost:4723/wd/hub', self.desire_caps)
+
+        driver = webdriver.Remote('http://0.0.0.0:4723/wd/hub', self.desire_caps)
         return driver
+
+    #def uninstall_apk(self):
+
+
+
 
 
 

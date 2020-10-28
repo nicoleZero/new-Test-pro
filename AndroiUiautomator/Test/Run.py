@@ -1,6 +1,6 @@
-# coding=gbk
+# coding=utf-8
 '''
-Ö´ĞĞ²âÊÔÓÃÀı²¢½«½á¹û·µ»ØÖÁÓÊÏä
+æ‰§è¡Œæµ‹è¯•ç”¨ä¾‹å¹¶å°†ç»“æœè¿”å›è‡³é‚®ç®±
 '''
 import time, os, unittest
 import HTMLTestRunner
@@ -9,7 +9,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 import logging
-
+from Test.Common import AppiumBase
 d = datetime.datetime.now()
 
 test_dir = r'C:\Users\jiang\PycharmProjects\AndroiUiautomator\Test\Testcase'
@@ -29,37 +29,39 @@ def createSuite(test_dir):
 
 def runTestCase(testunit):
     fp=open(filepath+"\RESULT_%s.html"%d.strftime('%Y-%m-%d-%H-%M-%S'),'wb')
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"²âÊÔ±¨¸æ",description=u"ÃèÊö")
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"æµ‹è¯•æŠ¥å‘Š",description=u"æè¿°")
     suite = createSuite(test_dir)
     runner.run(suite)
     fp.close()
     return fp
 
 def sendEmail(testFile):
-    host_server = "smtp.126.com"  # ÉèÖÃ·şÎñÆ÷
-    sender = "jiang_sisi@126.com"  # ÓÃ»§Ãû
-    pwd = "ZCOMYVVKCWLYJDCB"  # ¿ÚÁî
+    host_server = "smtp.126.com"  # è®¾ç½®æœåŠ¡å™¨
+    sender = "jiang_sisi@126.com"  # ç”¨æˆ·å
+    pwd = "ZCOMYVVKCWLYJDCB"  # å£ä»¤
     receiver = ['jiang_sisi@126.com']
 
 
     try:
         server = smtplib.SMTP_SSL("smtp.126.com", 465)
         server.login(sender, pwd)
-        msg = MIMEText('²âÊÔ±¨¸æ·¢ËÍ', 'plain', 'utf-8')
-        msg['Subject'] = Header("²âÊÔ½á¹û", 'utf-8')
+        msg = MIMEText('æµ‹è¯•æŠ¥å‘Šå‘é€', 'plain', 'utf-8')
+        msg['Subject'] = Header("æµ‹è¯•ç»“æœ", 'utf-8')
         msg['From'] = sender
         msg['To'] = sender
         server.sendmail(sender, sender,msg.as_string())
         server.quit()
-        print("·¢ËÍÓÊ¼ş³É¹¦")
+        print("å‘é€é‚®ä»¶æˆåŠŸ")
     except smtplib.SMTPException:
-        print("Error: ÎŞ·¨·¢ËÍÓÊ¼ş")
+        print("Error: æ— æ³•å‘é€é‚®ä»¶")
 
 if __name__ == "__main__":
     try:
+        AppiumBase.install_app()
         testunit = createSuite(test_dir)
-        result = runTestCase(testunit)
-        sendEmail(result)
+        #result = runTestCase(testunit)
+        #sendEmail(result)
+
     except Exception as e:
         print(e)
         logging.debug(msg="ERROR:%s"%e)

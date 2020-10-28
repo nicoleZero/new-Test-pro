@@ -152,3 +152,37 @@
 2020-05-20 13:26:32,273 - DEBUG - Finished Request
 2020-05-20 13:26:32,773 - DEBUG - Message: 
 
+2020-10-28 16:49:51,395 - INFO - Could not connect to port 4723 on host 0.0.0.0
+2020-10-28 16:49:51,396 - INFO - Could not get IP address for host: 0.0.0.0
+2020-10-28 16:49:51,396 - DEBUG - POST http://0.0.0.0:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "7.1.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-10-28 16:49:51,397 - DEBUG - Starting new HTTP connection (1): 0.0.0.0:4723
+2020-10-28 16:49:51,400 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-10-28 16:49:51,400 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041AC190>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 16:49:51,401 - DEBUG - Starting new HTTP connection (2): 0.0.0.0:4723
+2020-10-28 16:49:51,403 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-10-28 16:49:51,403 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041AC210>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 16:49:51,404 - DEBUG - Starting new HTTP connection (3): 0.0.0.0:4723
+2020-10-28 16:49:51,405 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-10-28 16:49:51,406 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041AC2B0>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 16:49:51,406 - DEBUG - Starting new HTTP connection (4): 0.0.0.0:4723
+2020-10-28 17:57:33,488 - INFO - Could not connect to port 4723 on host 0.0.0.0
+2020-10-28 17:57:33,489 - INFO - Could not get IP address for host: 0.0.0.0
+2020-10-28 17:57:33,489 - DEBUG - POST http://0.0.0.0:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "7.1.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-10-28 17:57:33,490 - DEBUG - Starting new HTTP connection (1): 0.0.0.0:4723
+2020-10-28 17:57:33,493 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-10-28 17:57:33,494 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0344C170>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 17:57:33,496 - DEBUG - Starting new HTTP connection (2): 0.0.0.0:4723
+2020-10-28 17:57:33,498 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-10-28 17:57:33,498 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0344C1F0>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 17:57:33,499 - DEBUG - Starting new HTTP connection (3): 0.0.0.0:4723
+2020-10-28 17:57:33,501 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-10-28 17:57:33,501 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0344C2B0>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-10-28 17:57:33,501 - DEBUG - Starting new HTTP connection (4): 0.0.0.0:4723
+2020-10-28 17:57:57,716 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "7.1.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-10-28 17:57:57,721 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-10-28 17:58:12,175 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1028
+2020-10-28 17:58:12,175 - DEBUG - Finished Request
+2020-10-28 18:03:27,414 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "7.1.2", "deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-10-28 18:03:27,415 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-10-28 18:03:35,989 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1028
+2020-10-28 18:03:35,990 - DEBUG - Finished Request
