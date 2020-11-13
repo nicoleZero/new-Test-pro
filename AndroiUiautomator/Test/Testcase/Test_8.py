@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：新用户注册，点击注册
-测试结果：注册成功
+测试步骤：勾选，点击登录
+测试结果：跳转至登录
 '''
 from Test.Method import Actions
 import unittest, time

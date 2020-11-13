@@ -9,6 +9,10 @@ import xlrd
 from datetime import date
 import os
 import logging
+path = "\\".join(sys.path[0].split("\\")[:5])
+
+test_dir = path+r'\Testcase'
+filepath=path+r"\Report"
 
 try:
     workbook = xlrd.open_workbook(r"D:\jiangsisi\1\workfile\C端APP\一目APP.xlsx")
@@ -32,10 +36,10 @@ try:
             '''
             生成文件名称为Test_01.py文件，当文件存在时，不修改，文件不存在时新增
             '''
-            if os.path.exists(r'C:\Users\jiang\PycharmProjects\AndroiUiautomator\Test\Testcase\Test_%d.py' %i):
+            if os.path.exists(test_dir+r'\Test_%d.py' %i):
                 continue
             else:
-                f = open(r'C:\Users\jiang\PycharmProjects\AndroiUiautomator\Test\Testcase\Test_%d.py' %i,"w",encoding='utf-8')
+                f = open(test_dir+r'\Test_%d.py' %i,"w",encoding='utf-8')
                 f.write("#!/usr/bin/python\n" )
                 f.write("# coding: utf-8\n")
                 f.write("'''\n%s\n"%d.ctime())
@@ -46,6 +50,7 @@ try:
                 f.write('\t\tpass\n')
                 f.write('if __name__ == "__main__":\n\tunittest.test_case%d()\n\tActions.logout()'%i)
                 f.close()
+                print("生成脚本模板成功！")
 except Exception as e:
     logging.debug(msg="ERROR:%s"%e)
 

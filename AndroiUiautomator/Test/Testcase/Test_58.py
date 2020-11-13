@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：退出app后，重新登陆
-测试结果：系统通知打开
+测试步骤：点击退出登录，取消
+测试结果：再次进入app不需要登录
 '''
 from Test.Method import Actions
 import unittest, time

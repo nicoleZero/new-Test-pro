@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：选择远程操控，点击水质检测，选择历史记录
-测试结果：历史数据显示正确，按钮可选择，按照日期可查看当天的具体数据显示内容
+测试步骤：选择远程操控，点击水质检测，选择立即检测
+测试结果：页面出现开始水质检测提示，一段时间后刷新数据和显示
 '''
 from Test.Method import Actions
 import unittest, time

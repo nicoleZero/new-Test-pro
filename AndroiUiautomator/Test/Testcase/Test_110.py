@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：选择远程操控，点击每日鲜活，设置焕新自动启动时间，点击关闭
-测试结果：设置成功，没有触发操控
+测试步骤：在正在焕新基础上，点击立即监测，UV杀菌
+测试结果：提示设备正在工作
 '''
 from Test.Method import Actions
 import unittest, time

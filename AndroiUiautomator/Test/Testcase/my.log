@@ -281,3 +281,776 @@
 2020-10-28 18:05:25,184 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
 2020-10-28 18:05:25,184 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x035FCA30>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
 2020-10-28 18:05:25,184 - DEBUG - Starting new HTTP connection (4): 0.0.0.0:4723
+2020-11-02 14:02:23,575 - INFO - Could not connect to port 4723 on host 0.0.0.0
+2020-11-02 14:02:23,576 - INFO - Could not get IP address for host: 0.0.0.0
+2020-11-02 14:02:23,576 - DEBUG - POST http://0.0.0.0:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:02:23,577 - DEBUG - Starting new HTTP connection (1): 0.0.0.0:4723
+2020-11-02 14:02:23,577 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:02:23,578 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x034F2510>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-11-02 14:02:23,579 - DEBUG - Starting new HTTP connection (2): 0.0.0.0:4723
+2020-11-02 14:02:23,580 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:02:23,580 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x034F2630>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-11-02 14:02:23,581 - DEBUG - Starting new HTTP connection (3): 0.0.0.0:4723
+2020-11-02 14:02:23,581 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:02:23,581 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x034F2690>: Failed to establish a new connection: [WinError 10049] 在其上下文中，该请求的地址无效。',)': /wd/hub/session
+2020-11-02 14:02:23,581 - DEBUG - Starting new HTTP connection (4): 0.0.0.0:4723
+2020-11-02 14:03:03,609 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:03:03,612 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 14:03:22,204 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1286
+2020-11-02 14:03:22,205 - DEBUG - Finished Request
+2020-11-02 14:07:01,562 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:07:01,563 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 14:07:12,623 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:07:12,624 - DEBUG - Finished Request
+2020-11-02 14:08:11,795 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 14:08:11,795 - INFO - Could not get IP address for host: localhost
+2020-11-02 14:08:11,795 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:08:11,796 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 14:08:15,806 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:08:15,806 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C13470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:08:15,810 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 14:08:19,834 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:08:19,834 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C134F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:08:19,834 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 14:08:23,841 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:08:23,841 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C135F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:08:23,841 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-02 14:08:53,029 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 14:08:53,029 - INFO - Could not get IP address for host: localhost
+2020-11-02 14:08:53,029 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:08:53,030 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 14:08:57,046 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:08:57,046 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EC34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:08:57,046 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 14:09:01,075 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:09:01,075 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EC3530>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:09:01,075 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 14:09:05,089 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-02 14:09:05,089 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EC3590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 14:09:05,089 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-02 14:09:20,198 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 14:09:20,198 - INFO - Could not get IP address for host: localhost
+2020-11-02 14:09:20,198 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:09:20,199 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 14:09:54,260 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 206
+2020-11-02 14:09:54,261 - DEBUG - Finished Request
+2020-11-02 14:11:14,746 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:11:14,747 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 14:11:28,273 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:11:28,273 - DEBUG - Finished Request
+2020-11-02 14:25:47,687 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:25:47,688 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 14:25:58,671 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:25:58,672 - DEBUG - Finished Request
+2020-11-02 14:28:43,691 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:28:43,692 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 14:28:54,644 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:28:54,644 - DEBUG - Finished Request
+2020-11-02 14:29:50,310 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 14:29:50,310 - INFO - Could not get IP address for host: localhost
+2020-11-02 14:29:50,310 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:29:50,311 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 14:30:03,223 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:30:03,223 - DEBUG - Finished Request
+2020-11-02 14:58:18,319 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 14:58:18,323 - INFO - Could not get IP address for host: localhost
+2020-11-02 14:58:18,323 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 14:58:18,324 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 14:58:31,351 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 14:58:31,352 - DEBUG - Finished Request
+2020-11-02 15:04:30,479 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:04:30,481 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:04:41,313 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 15:04:41,314 - DEBUG - Finished Request
+2020-11-02 15:13:26,078 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:13:26,081 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:13:39,285 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 15:13:39,286 - DEBUG - Finished Request
+2020-11-02 15:14:11,018 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:14:11,021 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:14:18,532 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:14:18,533 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:14:18,533 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/21b7c851-b6f1-431b-b268-dd094af83ba5
+2020-11-02 15:14:18,537 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/21b7c851-b6f1-431b-b268-dd094af83ba5 HTTP/1.1" 200 789
+2020-11-02 15:14:18,537 - DEBUG - Finished Request
+2020-11-02 15:18:48,956 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:18:48,960 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:19:01,576 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 15:19:01,576 - DEBUG - Finished Request
+2020-11-02 15:20:12,598 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 15:20:12,599 - INFO - Could not get IP address for host: localhost
+2020-11-02 15:20:12,599 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:20:12,601 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 15:20:25,517 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 15:20:25,518 - DEBUG - Finished Request
+2020-11-02 15:29:13,335 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:29:13,336 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:29:24,235 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 15:29:24,236 - DEBUG - Finished Request
+2020-11-02 15:32:07,940 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 15:32:07,940 - INFO - Could not get IP address for host: localhost
+2020-11-02 15:32:07,940 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:32:07,941 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 15:32:16,493 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:32:16,494 - DEBUG - Incremented Retry for (url='http://localhost:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:32:16,494 - INFO - Redirecting http://localhost:4723/wd/hub/session -> http://localhost:4723/wd/hub/session/4fea811c-6083-4fce-87a3-40070b2ab804
+2020-11-02 15:32:16,500 - DEBUG - http://localhost:4723 "GET /wd/hub/session/4fea811c-6083-4fce-87a3-40070b2ab804 HTTP/1.1" 200 789
+2020-11-02 15:32:16,500 - DEBUG - Finished Request
+2020-11-02 15:32:25,675 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:32:25,678 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:32:25,701 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-02 15:32:25,702 - DEBUG - Finished Request
+2020-11-02 15:32:44,828 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:32:44,831 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:32:51,514 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:32:51,515 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:32:51,515 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/86516d8c-8106-4b2b-8a81-dbcfdf5258b1
+2020-11-02 15:32:51,522 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/86516d8c-8106-4b2b-8a81-dbcfdf5258b1 HTTP/1.1" 200 789
+2020-11-02 15:32:51,522 - DEBUG - Finished Request
+2020-11-02 15:33:05,557 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:33:05,560 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:33:05,578 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-02 15:33:05,579 - DEBUG - Finished Request
+2020-11-02 15:33:19,633 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:33:19,633 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:33:26,317 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:33:26,318 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:33:26,318 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/7052df27-4d91-4ba4-bd95-c536820531a6
+2020-11-02 15:33:26,323 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/7052df27-4d91-4ba4-bd95-c536820531a6 HTTP/1.1" 200 789
+2020-11-02 15:33:26,324 - DEBUG - Finished Request
+2020-11-02 15:34:06,087 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:34:06,091 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:34:14,571 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:34:14,572 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:34:14,572 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/7a53b095-8819-4a29-b325-7a998b8f6a7f
+2020-11-02 15:34:14,579 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/7a53b095-8819-4a29-b325-7a998b8f6a7f HTTP/1.1" 200 789
+2020-11-02 15:34:14,579 - DEBUG - Finished Request
+2020-11-02 15:49:01,547 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 15:49:01,550 - INFO - Could not get IP address for host: localhost
+2020-11-02 15:49:01,551 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:49:01,555 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 15:49:05,566 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:49:05,566 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03793470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:49:05,567 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 15:49:09,572 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:49:09,572 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x037934F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:49:09,572 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 15:49:13,579 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:49:13,579 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03793550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:49:13,580 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-02 15:49:58,760 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 15:49:58,760 - INFO - Could not get IP address for host: localhost
+2020-11-02 15:49:58,760 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:49:58,761 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 15:50:02,767 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:50:02,767 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x037A34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:50:02,767 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 15:50:06,774 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:50:06,774 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x037A3530>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:50:06,774 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 15:50:10,779 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:50:10,779 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x037A35B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:50:10,780 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-02 15:50:36,786 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:50:36,787 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:50:59,827 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:50:59,828 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:50:59,828 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/ea3c0078-6df4-496c-945e-4886b95feae8
+2020-11-02 15:50:59,834 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/ea3c0078-6df4-496c-945e-4886b95feae8 HTTP/1.1" 200 789
+2020-11-02 15:50:59,834 - DEBUG - Finished Request
+2020-11-02 15:54:24,427 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 15:54:24,427 - INFO - Could not get IP address for host: localhost
+2020-11-02 15:54:24,427 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:54:24,428 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 15:54:28,436 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:54:28,436 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03AD34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:54:28,436 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 15:54:32,443 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:54:32,443 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03AD35D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 15:54:32,443 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 15:55:07,197 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 206
+2020-11-02 15:55:07,197 - DEBUG - Finished Request
+2020-11-02 15:55:15,957 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:55:15,958 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:55:22,706 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:55:22,706 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:55:22,706 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/205ca35e-05de-4d42-97be-8d66036f03f7
+2020-11-02 15:55:22,712 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/205ca35e-05de-4d42-97be-8d66036f03f7 HTTP/1.1" 200 789
+2020-11-02 15:55:22,712 - DEBUG - Finished Request
+2020-11-02 15:57:56,085 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 15:57:56,087 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 15:58:02,471 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 15:58:02,472 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 15:58:02,472 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/ec04b7db-a10b-453f-83dc-cac1f186e2af
+2020-11-02 15:58:02,478 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/ec04b7db-a10b-453f-83dc-cac1f186e2af HTTP/1.1" 200 789
+2020-11-02 15:58:02,478 - DEBUG - Finished Request
+2020-11-02 16:09:48,210 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:09:48,215 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:10:02,227 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 16:10:02,228 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:10:02,228 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/109b6a3a-8eef-4763-902a-6223bd76475b
+2020-11-02 16:10:02,234 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/109b6a3a-8eef-4763-902a-6223bd76475b HTTP/1.1" 200 789
+2020-11-02 16:10:02,235 - DEBUG - Finished Request
+2020-11-02 16:10:47,670 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:10:47,672 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:10:47,682 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-02 16:10:47,683 - DEBUG - Finished Request
+2020-11-02 16:11:08,912 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:11:08,915 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:11:17,092 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-02 16:11:17,092 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:11:17,092 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/7ee017dd-6ec7-44dc-b27f-60edbafc4683
+2020-11-02 16:11:17,099 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/7ee017dd-6ec7-44dc-b27f-60edbafc4683 HTTP/1.1" 200 789
+2020-11-02 16:11:17,099 - DEBUG - Finished Request
+2020-11-02 16:15:17,804 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 16:15:17,804 - INFO - Could not get IP address for host: localhost
+2020-11-02 16:15:17,804 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:15:17,805 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 16:15:21,812 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:15:21,812 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03F134D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 16:15:21,816 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 16:15:25,823 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:15:25,823 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03F13550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 16:15:25,823 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 16:15:54,961 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 706
+2020-11-02 16:15:54,961 - DEBUG - Finished Request
+2020-11-02 16:19:26,287 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:19:26,289 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:19:39,178 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 16:19:39,179 - DEBUG - Finished Request
+2020-11-02 16:20:53,250 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:20:53,252 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:21:06,181 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1420
+2020-11-02 16:21:06,182 - DEBUG - Finished Request
+2020-11-02 16:21:30,351 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:21:30,353 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:21:40,882 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 16:21:40,882 - DEBUG - Finished Request
+2020-11-02 16:22:03,023 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:22:03,024 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-02 16:22:13,547 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1431
+2020-11-02 16:22:13,548 - DEBUG - Finished Request
+2020-11-02 16:57:45,020 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 16:57:45,020 - INFO - Could not get IP address for host: localhost
+2020-11-02 16:57:45,020 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 16:57:45,021 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 16:57:49,027 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:57:49,027 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03E934D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 16:57:49,028 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-02 16:57:53,035 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-02 16:57:53,035 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03E93550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-02 16:57:53,035 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-02 16:58:27,372 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 206
+2020-11-02 16:58:27,373 - DEBUG - Finished Request
+2020-11-02 17:00:26,126 - INFO - Could not connect to port 4723 on host localhost
+2020-11-02 17:00:26,126 - INFO - Could not get IP address for host: localhost
+2020-11-02 17:00:26,126 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-02 17:00:26,129 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-02 17:00:45,055 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 706
+2020-11-02 17:00:45,056 - DEBUG - Finished Request
+2020-11-09 10:46:46,602 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 10:47:30,911 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 10:48:19,230 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 10:48:19,230 - INFO - Could not get IP address for host: localhost
+2020-11-09 10:48:19,230 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.user.mvp.SplashActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 10:48:19,231 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 10:48:23,238 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 10:48:23,239 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D3430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 10:48:23,241 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 10:48:27,246 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 10:48:27,247 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 10:48:27,247 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 10:48:31,253 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 10:48:31,253 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D3510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 10:48:31,253 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 10:48:49,009 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 1649
+2020-11-09 10:48:49,010 - DEBUG - Finished Request
+2020-11-09 11:00:20,753 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:00:20,759 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:00:40,796 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1181
+2020-11-09 11:00:40,796 - DEBUG - Finished Request
+2020-11-09 11:33:02,738 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 11:33:02,741 - INFO - Could not get IP address for host: localhost
+2020-11-09 11:33:02,742 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:33:02,744 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 11:33:06,755 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:33:06,755 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03853430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:33:06,757 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 11:33:10,765 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:33:10,765 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038534B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:33:10,766 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 11:33:14,772 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:33:14,772 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03853510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:33:14,772 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 11:33:35,635 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:33:35,639 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:33:46,754 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1326
+2020-11-09 11:33:46,755 - DEBUG - Finished Request
+2020-11-09 11:43:01,789 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:43:01,794 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:43:12,902 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1326
+2020-11-09 11:43:12,903 - DEBUG - Finished Request
+2020-11-09 11:46:05,038 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:46:05,039 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:46:31,350 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 336
+2020-11-09 11:46:31,350 - DEBUG - Finished Request
+2020-11-09 11:54:40,121 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:54:40,124 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:54:54,534 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1134
+2020-11-09 11:54:54,535 - DEBUG - Finished Request
+2020-11-09 11:55:52,309 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:55:52,312 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:56:00,146 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 11:56:00,147 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:56:00,147 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/3dc2f7c0-48ae-4dd2-9a25-9d6af0fa0f0e
+2020-11-09 11:56:00,152 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/3dc2f7c0-48ae-4dd2-9a25-9d6af0fa0f0e HTTP/1.1" 200 745
+2020-11-09 11:56:00,153 - DEBUG - Finished Request
+2020-11-09 11:56:00,153 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 11:56:56,226 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:56:56,227 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:56:56,246 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-09 11:56:56,247 - DEBUG - Finished Request
+2020-11-09 11:57:17,394 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 11:57:17,394 - INFO - Could not get IP address for host: localhost
+2020-11-09 11:57:17,394 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:57:17,394 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 11:57:21,401 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:57:21,401 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04393430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:57:21,403 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 11:57:25,408 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:57:25,408 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043934B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:57:25,408 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 11:57:29,415 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:57:29,415 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04393510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 11:57:29,415 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 11:57:48,133 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 11:57:48,134 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 11:57:56,175 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 11:57:56,176 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 11:57:56,176 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/e12ae580-2396-4549-ba75-3b87328ff416
+2020-11-09 11:57:56,185 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e12ae580-2396-4549-ba75-3b87328ff416 HTTP/1.1" 200 745
+2020-11-09 11:57:56,185 - DEBUG - Finished Request
+2020-11-09 11:57:56,186 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 12:02:04,380 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 12:02:04,380 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 12:02:12,323 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 12:02:12,324 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 12:02:12,324 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/a9440c91-0e40-4557-80d7-b5f2753e0514
+2020-11-09 12:02:12,327 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/a9440c91-0e40-4557-80d7-b5f2753e0514 HTTP/1.1" 200 745
+2020-11-09 12:02:12,327 - DEBUG - Finished Request
+2020-11-09 12:02:12,327 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 12:04:20,505 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 12:04:20,507 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 12:04:28,266 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 12:04:28,267 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 12:04:28,267 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/88ee396b-f8d5-481e-8ae4-657be1f435df
+2020-11-09 12:04:28,268 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/88ee396b-f8d5-481e-8ae4-657be1f435df HTTP/1.1" 200 745
+2020-11-09 12:04:28,268 - DEBUG - Finished Request
+2020-11-09 12:04:38,275 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 12:10:41,823 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 12:10:41,823 - INFO - Could not get IP address for host: localhost
+2020-11-09 12:10:41,823 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 12:10:41,823 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 12:10:45,830 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 12:10:45,830 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C53430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 12:10:45,831 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 12:10:56,517 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 12:10:56,518 - DEBUG - Incremented Retry for (url='http://localhost:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 12:10:56,518 - INFO - Redirecting http://localhost:4723/wd/hub/session -> http://localhost:4723/wd/hub/session/9c53d7c6-560b-4d2c-9ed2-1203f9e35492
+2020-11-09 12:10:56,523 - DEBUG - http://localhost:4723 "GET /wd/hub/session/9c53d7c6-560b-4d2c-9ed2-1203f9e35492 HTTP/1.1" 200 745
+2020-11-09 12:10:56,523 - DEBUG - Finished Request
+2020-11-09 12:11:06,524 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 17:47:16,337 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 17:47:16,341 - INFO - Could not get IP address for host: localhost
+2020-11-09 17:47:16,342 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:47:16,343 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 17:47:20,349 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:47:20,349 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041833F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 17:47:20,352 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 17:47:24,360 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:47:24,360 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04183470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 17:47:24,360 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 17:47:28,370 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:47:28,370 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041834D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 17:47:28,371 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 17:48:01,442 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 336
+2020-11-09 17:48:01,442 - DEBUG - Finished Request
+2020-11-09 17:49:58,194 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:49:58,195 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 17:51:14,447 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 17:51:14,447 - INFO - Could not get IP address for host: localhost
+2020-11-09 17:51:14,447 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:51:14,448 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 17:51:18,456 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:51:18,456 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x036A3430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 17:51:18,456 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 17:51:36,567 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 500 1032
+2020-11-09 17:51:36,568 - DEBUG - Finished Request
+2020-11-09 17:53:30,860 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:53:30,863 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 17:53:38,927 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 17:53:38,928 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:53:38,928 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/cb0597a9-62c9-465c-8119-ac678c957c58
+2020-11-09 17:53:38,933 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/cb0597a9-62c9-465c-8119-ac678c957c58 HTTP/1.1" 200 745
+2020-11-09 17:53:38,934 - DEBUG - Finished Request
+2020-11-09 17:53:48,934 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 17:55:45,589 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:55:45,590 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 17:55:45,604 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 286
+2020-11-09 17:55:45,604 - DEBUG - Finished Request
+2020-11-09 17:56:27,860 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:56:27,861 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 17:56:33,680 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 17:56:33,681 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 17:56:33,681 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/10c0a92d-dc3e-4aa2-8556-7a91bec059e1
+2020-11-09 17:56:33,684 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/10c0a92d-dc3e-4aa2-8556-7a91bec059e1 HTTP/1.1" 200 585
+2020-11-09 17:56:33,685 - DEBUG - Finished Request
+2020-11-09 17:56:43,686 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 17:59:48,558 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "org.ecomo.tap", "appium:appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "org.ecomo.tap", "appActivity": "org.ecomo.desktop.mvp.home.MainActivity", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 17:59:48,559 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:00:11,869 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 336
+2020-11-09 18:00:11,869 - DEBUG - Finished Request
+2020-11-09 18:00:30,420 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:00:30,421 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:00:33,292 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 18:00:33,292 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:00:33,293 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/eda1b40a-d262-4276-a76b-3196d1b4ac98
+2020-11-09 18:00:33,300 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/eda1b40a-d262-4276-a76b-3196d1b4ac98 HTTP/1.1" 200 745
+2020-11-09 18:00:33,300 - DEBUG - Finished Request
+2020-11-09 18:00:43,302 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 18:01:28,111 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:01:28,112 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:01:30,860 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 18:01:30,861 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:01:30,861 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/77954b81-b048-4e49-ba13-310b129fba67
+2020-11-09 18:01:30,864 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/77954b81-b048-4e49-ba13-310b129fba67 HTTP/1.1" 200 745
+2020-11-09 18:01:30,865 - DEBUG - Finished Request
+2020-11-09 18:01:40,871 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 18:02:01,458 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 18:02:01,458 - INFO - Could not get IP address for host: localhost
+2020-11-09 18:02:01,459 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:02:01,461 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 18:02:05,472 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:02:05,472 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x039133F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:02:05,478 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 18:02:09,487 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:02:09,487 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03913470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:02:09,487 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 18:02:13,491 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:02:13,492 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x039134D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:02:13,493 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 18:02:35,268 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:02:35,269 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:02:43,366 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 18:02:43,366 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:02:43,367 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/ba5c92c3-5be8-45ed-a791-e7d967b30ead
+2020-11-09 18:02:43,372 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/ba5c92c3-5be8-45ed-a791-e7d967b30ead HTTP/1.1" 200 745
+2020-11-09 18:02:43,373 - DEBUG - Finished Request
+2020-11-09 18:02:53,373 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-09 18:04:13,989 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:04:13,990 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:04:28,235 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1134
+2020-11-09 18:04:28,235 - DEBUG - Finished Request
+2020-11-09 18:04:56,705 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 18:04:56,705 - INFO - Could not get IP address for host: localhost
+2020-11-09 18:04:56,705 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:04:56,706 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 18:05:00,717 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:05:00,717 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04243430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:05:00,717 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 18:05:04,725 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:05:04,725 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042434B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:05:04,725 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 18:05:08,735 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:05:08,735 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04243510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:05:08,735 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 18:05:55,208 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 18:05:55,208 - INFO - Could not get IP address for host: localhost
+2020-11-09 18:05:55,208 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:05:55,208 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 18:05:59,214 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:05:59,214 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041633F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:05:59,214 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 18:06:03,220 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:06:03,220 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04163470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:06:03,220 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 18:06:07,226 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:06:07,226 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041634D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:06:07,226 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 18:07:20,704 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.vphone.launcher", "appium:appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.vphone.launcher", "appActivity": "com.vphone.launcher.Launcher", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:07:20,705 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:07:34,819 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1134
+2020-11-09 18:07:34,820 - DEBUG - Finished Request
+2020-11-09 18:19:28,441 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 18:19:28,441 - INFO - Could not get IP address for host: localhost
+2020-11-09 18:19:28,441 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:19:28,442 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 18:19:32,451 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:19:32,451 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03753430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:19:32,451 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 18:19:36,458 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:19:36,458 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x037534B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:19:36,458 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 18:19:40,465 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:19:40,465 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03753510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:19:40,465 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 18:20:18,685 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:20:18,687 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:20:41,942 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 326
+2020-11-09 18:20:41,943 - DEBUG - Finished Request
+2020-11-09 18:22:29,516 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:22:29,517 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:22:52,212 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 326
+2020-11-09 18:22:52,212 - DEBUG - Finished Request
+2020-11-09 18:23:36,513 - INFO - Could not connect to port 4723 on host localhost
+2020-11-09 18:23:36,513 - INFO - Could not get IP address for host: localhost
+2020-11-09 18:23:36,513 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:23:36,514 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-09 18:23:40,518 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:23:40,519 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EA33F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:23:40,519 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-09 18:23:44,530 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:23:44,531 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EA3470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:23:44,531 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-09 18:23:48,540 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:23:48,541 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03EA34D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-09 18:23:48,541 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-09 18:24:03,133 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:24:03,134 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:24:25,933 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 326
+2020-11-09 18:24:25,934 - DEBUG - Finished Request
+2020-11-09 18:29:28,637 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-09 18:29:28,638 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-09 18:30:38,391 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-09 18:30:38,392 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-09 18:30:38,392 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/99ec73c9-f0e5-4f4a-a043-5706a30cfbec
+2020-11-09 18:30:38,403 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/99ec73c9-f0e5-4f4a-a043-5706a30cfbec HTTP/1.1" 200 745
+2020-11-09 18:30:38,403 - DEBUG - Finished Request
+2020-11-09 18:30:48,403 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:16:34,250 - INFO - Could not connect to port 4723 on host localhost
+2020-11-10 15:16:34,250 - INFO - Could not get IP address for host: localhost
+2020-11-10 15:16:34,251 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:16:34,251 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-10 15:16:38,256 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:16:38,256 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043B3430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:16:38,258 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-10 15:16:42,263 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:16:42,263 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043B34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:16:42,263 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-10 15:16:46,279 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:16:46,279 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043B3510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:16:46,279 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-10 15:17:17,856 - INFO - Could not connect to port 4723 on host localhost
+2020-11-10 15:17:17,856 - INFO - Could not get IP address for host: localhost
+2020-11-10 15:17:17,856 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:17:17,857 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-10 15:17:21,872 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:17:21,872 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03CC3430>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:17:21,872 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-10 15:17:25,887 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:17:25,887 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03CC34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:17:25,887 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-10 15:17:29,892 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:17:29,892 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03CC3510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:17:29,892 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-10 15:17:43,949 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:17:43,950 - DEBUG - Incremented Retry for (url='http://localhost:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:17:43,950 - INFO - Redirecting http://localhost:4723/wd/hub/session -> http://localhost:4723/wd/hub/session/d0a6cdbc-5e3b-44b8-9cf5-48c8029c0952
+2020-11-10 15:17:43,957 - DEBUG - http://localhost:4723 "GET /wd/hub/session/d0a6cdbc-5e3b-44b8-9cf5-48c8029c0952 HTTP/1.1" 200 745
+2020-11-10 15:17:43,958 - DEBUG - Finished Request
+2020-11-10 15:17:43,958 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:25:53,298 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:26:05,428 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:26:11,560 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:26:34,066 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:27:58,013 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:31:42,441 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:33:21,722 - INFO - Could not connect to port 4723 on host localhost
+2020-11-10 15:33:21,722 - INFO - Could not get IP address for host: localhost
+2020-11-10 15:33:21,722 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:33:21,723 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-10 15:33:25,735 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:33:25,735 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043433D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:33:25,739 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-10 15:33:29,763 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:33:29,763 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04343450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:33:29,763 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-10 15:33:33,771 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:33:33,771 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x043434B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:33:33,771 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-10 15:33:52,297 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:33:52,298 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:34:03,606 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:34:03,607 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:34:03,607 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/7f94540c-9a58-406e-ab39-d4b714af55f5
+2020-11-10 15:34:03,616 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/7f94540c-9a58-406e-ab39-d4b714af55f5 HTTP/1.1" 200 745
+2020-11-10 15:34:03,616 - DEBUG - Finished Request
+2020-11-10 15:34:03,617 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:42:32,478 - INFO - Could not connect to port 4723 on host localhost
+2020-11-10 15:42:32,478 - INFO - Could not get IP address for host: localhost
+2020-11-10 15:42:32,478 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:42:32,479 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-10 15:42:36,484 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:42:36,484 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C033F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:42:36,489 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-10 15:42:40,499 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:42:40,499 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C03470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:42:40,499 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-10 15:42:44,513 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:42:44,513 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C034D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-10 15:42:44,513 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-10 15:42:58,986 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:42:58,987 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:43:10,367 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:43:10,368 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:43:10,368 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/c4c6e3db-7f9b-48d9-bc1e-6ed44e7b033f
+2020-11-10 15:43:10,376 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/c4c6e3db-7f9b-48d9-bc1e-6ed44e7b033f HTTP/1.1" 200 745
+2020-11-10 15:43:10,377 - DEBUG - Finished Request
+2020-11-10 15:43:10,377 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:46:22,269 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:46:22,270 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:46:33,726 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:46:33,727 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:46:33,727 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/bd200811-c60a-4048-b497-cf386ca241d1
+2020-11-10 15:46:33,734 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/bd200811-c60a-4048-b497-cf386ca241d1 HTTP/1.1" 200 745
+2020-11-10 15:46:33,735 - DEBUG - Finished Request
+2020-11-10 15:50:40,814 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:50:40,815 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:50:40,824 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-10 15:50:40,824 - DEBUG - Finished Request
+2020-11-10 15:50:57,428 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:50:57,429 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:51:08,664 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:51:08,665 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:51:08,665 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/bc21bae7-8095-43fe-be8e-4bafe9d49374
+2020-11-10 15:51:08,678 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/bc21bae7-8095-43fe-be8e-4bafe9d49374 HTTP/1.1" 200 745
+2020-11-10 15:51:08,679 - DEBUG - Finished Request
+2020-11-10 15:51:08,679 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:51:08,681 - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/bc21bae7-8095-43fe-be8e-4bafe9d49374/window/current/size {"windowHandle": "current", "sessionId": "bc21bae7-8095-43fe-be8e-4bafe9d49374"}
+2020-11-10 15:51:08,693 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/bc21bae7-8095-43fe-be8e-4bafe9d49374/window/current/size HTTP/1.1" 200 99
+2020-11-10 15:51:08,693 - DEBUG - Finished Request
+2020-11-10 15:51:43,134 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:51:43,135 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:51:43,146 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 250
+2020-11-10 15:51:43,146 - DEBUG - Finished Request
+2020-11-10 15:51:50,817 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:51:50,818 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:52:01,775 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:52:01,776 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:52:01,776 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8
+2020-11-10 15:52:01,784 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8 HTTP/1.1" 200 745
+2020-11-10 15:52:01,784 - DEBUG - Finished Request
+2020-11-10 15:52:01,785 - INFO - 查找元素:org.ecomo.tap:id/vf_page
+2020-11-10 15:52:01,785 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:02,396 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:02,397 - DEBUG - Finished Request
+2020-11-10 15:52:03,397 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:03,412 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:03,412 - DEBUG - Finished Request
+2020-11-10 15:52:04,412 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:04,434 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:04,434 - DEBUG - Finished Request
+2020-11-10 15:52:05,434 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:05,448 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:05,448 - DEBUG - Finished Request
+2020-11-10 15:52:06,449 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:06,462 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:06,462 - DEBUG - Finished Request
+2020-11-10 15:52:07,462 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:07,477 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:07,477 - DEBUG - Finished Request
+2020-11-10 15:52:08,477 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:08,503 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:08,504 - DEBUG - Finished Request
+2020-11-10 15:52:09,504 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:09,518 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:09,518 - DEBUG - Finished Request
+2020-11-10 15:52:10,518 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:10,531 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:10,532 - DEBUG - Finished Request
+2020-11-10 15:52:11,533 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element {"using": "id", "value": "org.ecomo.tap:id/vf_page", "sessionId": "a344635e-cb14-4ac1-971e-664c02e27cb8"}
+2020-11-10 15:52:11,547 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/a344635e-cb14-4ac1-971e-664c02e27cb8/element HTTP/1.1" 500 195
+2020-11-10 15:52:11,547 - DEBUG - Finished Request
+2020-11-10 15:52:12,548 - ERROR - 超时找不到元素
+2020-11-10 15:54:08,129 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-10 15:54:08,130 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-10 15:54:19,354 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-10 15:54:19,356 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-10 15:54:19,356 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/646ca24b-41af-4884-a8b7-8ef9fe354e83
+2020-11-10 15:54:19,368 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/646ca24b-41af-4884-a8b7-8ef9fe354e83 HTTP/1.1" 200 745
+2020-11-10 15:54:19,368 - DEBUG - Finished Request
+2020-11-10 15:54:19,368 - INFO - 查找元素:com.taobao.taobao:id/provision_positive_button
+2020-11-10 15:54:19,369 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/646ca24b-41af-4884-a8b7-8ef9fe354e83/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "646ca24b-41af-4884-a8b7-8ef9fe354e83"}
+2020-11-10 15:54:19,939 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/646ca24b-41af-4884-a8b7-8ef9fe354e83/element HTTP/1.1" 200 87
+2020-11-10 15:54:19,939 - DEBUG - Finished Request
+2020-11-12 11:44:28,378 - INFO - Could not connect to port 4723 on host localhost
+2020-11-12 11:44:28,382 - INFO - Could not get IP address for host: localhost
+2020-11-12 11:44:28,382 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-12 11:44:28,383 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-12 11:44:32,387 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:44:32,387 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D34B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:44:32,389 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-12 11:44:36,394 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:44:36,395 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D3530>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:44:36,395 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-12 11:44:40,409 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:44:40,409 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x042D3590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:44:40,409 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-12 11:45:08,213 - INFO - Could not connect to port 4723 on host localhost
+2020-11-12 11:45:08,213 - INFO - Could not get IP address for host: localhost
+2020-11-12 11:45:08,214 - DEBUG - POST http://localhost:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-12 11:45:08,215 - DEBUG - Starting new HTTP connection (1): localhost:4723
+2020-11-12 11:45:12,235 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:45:12,235 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x034934B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:45:12,235 - DEBUG - Starting new HTTP connection (2): localhost:4723
+2020-11-12 11:45:16,249 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:45:16,249 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03493530>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:45:16,249 - DEBUG - Starting new HTTP connection (3): localhost:4723
+2020-11-12 11:45:20,257 - DEBUG - Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:45:20,257 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03493590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session
+2020-11-12 11:45:20,258 - DEBUG - Starting new HTTP connection (4): localhost:4723
+2020-11-12 11:45:34,774 - DEBUG - http://localhost:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-12 11:45:34,775 - DEBUG - Incremented Retry for (url='http://localhost:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:45:34,775 - INFO - Redirecting http://localhost:4723/wd/hub/session -> http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24
+2020-11-12 11:45:34,789 - DEBUG - http://localhost:4723 "GET /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24 HTTP/1.1" 200 745
+2020-11-12 11:45:34,790 - DEBUG - Finished Request
+2020-11-12 11:45:34,790 - INFO - 查找元素:com.taobao.taobao:id/provision_positive_button
+2020-11-12 11:45:34,790 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:36,661 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:36,661 - DEBUG - Finished Request
+2020-11-12 11:45:37,662 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:37,699 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:37,699 - DEBUG - Finished Request
+2020-11-12 11:45:38,699 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:38,817 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:38,817 - DEBUG - Finished Request
+2020-11-12 11:45:39,817 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:40,366 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:40,366 - DEBUG - Finished Request
+2020-11-12 11:45:41,368 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:41,407 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:41,407 - DEBUG - Finished Request
+2020-11-12 11:45:42,408 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:42,435 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:42,436 - DEBUG - Finished Request
+2020-11-12 11:45:43,437 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:43,491 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:43,491 - DEBUG - Finished Request
+2020-11-12 11:45:44,491 - DEBUG - POST http://localhost:4723/wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element {"using": "id", "value": "com.taobao.taobao:id/provision_positive_button", "sessionId": "6c7e6d05-41db-4cf3-bdb4-903175664e24"}
+2020-11-12 11:45:44,533 - DEBUG - http://localhost:4723 "POST /wd/hub/session/6c7e6d05-41db-4cf3-bdb4-903175664e24/element HTTP/1.1" 500 195
+2020-11-12 11:45:44,533 - DEBUG - Finished Request
+2020-11-12 11:45:45,534 - ERROR - 超时找不到元素
+2020-11-12 11:48:57,491 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "127.0.0.1:62001", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "appium:platformVersion": "7.1.2", "appium:resetKeyboard": true, "appium:noReset": true, "appium:sessionOverride": true}]}, "desiredCapabilities": {"deviceName": "127.0.0.1:62001", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "platformName": "Android", "platformVersion": "7.1.2", "resetKeyboard": true, "noReset": true, "sessionOverride": true}}
+2020-11-12 11:48:57,494 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-12 11:49:08,239 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 303 74
+2020-11-12 11:49:08,240 - DEBUG - Incremented Retry for (url='http://127.0.0.1:4723/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-11-12 11:49:08,240 - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406
+2020-11-12 11:49:08,248 - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406 HTTP/1.1" 200 745
+2020-11-12 11:49:08,248 - DEBUG - Finished Request
+2020-11-12 11:49:08,249 - INFO - 查找元素:com.taobao.taobao:id/scan_code_icon
+2020-11-12 11:49:08,249 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406/element {"using": "id", "value": "com.taobao.taobao:id/scan_code_icon", "sessionId": "46d806e5-e713-4e6f-89b7-520e4ef23406"}
+2020-11-12 11:49:09,989 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406/element HTTP/1.1" 200 87
+2020-11-12 11:49:09,989 - DEBUG - Finished Request
+2020-11-12 11:49:09,989 - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406/element/1/click {"id": "1", "sessionId": "46d806e5-e713-4e6f-89b7-520e4ef23406"}
+2020-11-12 11:49:11,517 - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/46d806e5-e713-4e6f-89b7-520e4ef23406/element/1/click HTTP/1.1" 200 76
+2020-11-12 11:49:11,517 - DEBUG - Finished Request

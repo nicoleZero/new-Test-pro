@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：未注册邮箱用户
+测试步骤：未注册手机用户，点击发送验证码
 测试结果：提示用户未注册
 '''
 from Test.Method import Actions

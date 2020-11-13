@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：已添加设备
-测试结果：已添加设备状态显示正常，名称显示正常，设备个数显示正常和个人资料中设备个数显示正常
+测试步骤：长按设备，选择删除，点击确认
+测试结果：删除成功，数据库中设备valid字段置为0
 '''
 from Test.Method import Actions
 import unittest, time

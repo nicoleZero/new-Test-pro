@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：点击立即购买，选择天猫，苏宁易购，京东，有品
-测试结果：成功跳转至一目店铺
+测试步骤：选择滤芯寿命，点击查看滤芯更换教程
+测试结果：显示成功
 '''
 from Test.Method import Actions
 import unittest, time

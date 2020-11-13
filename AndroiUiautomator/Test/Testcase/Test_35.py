@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：手机号和密码输入为空，点击登录
-测试结果：提示手机和密码输入为空
+测试步骤：已注册用户登录，输入正确的密码
+测试结果：登录成功
 '''
 from Test.Method import Actions
 import unittest, time

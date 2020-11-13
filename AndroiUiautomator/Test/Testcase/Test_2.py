@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：未勾选，点击登录
-测试结果：跳转失败，提示请先勾选
+测试步骤：初次打开app，出现静态画面，全部滑动后
+测试结果：出现登录前页面
 '''
 from Test.Method import Actions
 import unittest, time

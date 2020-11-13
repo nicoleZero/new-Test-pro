@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：选择远程操控，点击每日鲜活，点击立即焕新，点击确认
-测试结果：开始焕新，提示“设备正在焕新中不能进行其他操控”
+测试步骤：选择远程操控，点击每日鲜活
+测试结果：进入每日鲜活，默认时间时当前时间，且关闭
 '''
 from Test.Method import Actions
 import unittest, time

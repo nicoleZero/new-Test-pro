@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：已被其他用户添加的设备
-测试结果：原用户上该设备被删除，原有配置清除原有数据清除
+测试步骤：添加设备，勾选已确认上述操控，不输入wifi和密码，点击下一步
+测试结果：不可跳转
 '''
 from Test.Method import Actions
 import unittest, time

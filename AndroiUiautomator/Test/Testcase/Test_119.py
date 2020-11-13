@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：选择远程操控，点击回到主界面
-测试结果：页面正常跳转至主界面
+测试步骤：选择远程操控，点击选择温度，设置温度和标签
+测试结果：温度选择范围为37度至99度
 '''
 from Test.Method import Actions
 import unittest, time

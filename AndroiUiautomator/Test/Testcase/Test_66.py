@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：添加新设备，按照说明执行
-测试结果：添加设备成功
+测试步骤：点击用户协议和隐私政策
+测试结果：页面正确跳转用户协议和隐私政策链接
 '''
 from Test.Method import Actions
 import unittest, time

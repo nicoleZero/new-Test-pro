@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：点击用户协议和隐私政策
-测试结果：页面正确跳转用户协议和隐私政策链接
+测试步骤：显示
+测试结果：页面正确显示软件版本条目
 '''
 from Test.Method import Actions
 import unittest, time

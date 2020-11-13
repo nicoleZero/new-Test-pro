@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：长按设备，选择重命名，前几取消
-测试结果：重命名操控失败
+测试步骤：长按设备，选择重命名，输入为空，点击保存
+测试结果：提示不能为空
 '''
 from Test.Method import Actions
 import unittest, time

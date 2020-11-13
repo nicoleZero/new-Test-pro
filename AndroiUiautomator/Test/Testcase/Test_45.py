@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：输入为空
-测试结果：提示输入为空，长度在2~20范围内
+测试步骤：未设置昵称时
+测试结果：显示我
 '''
 from Test.Method import Actions
 import unittest, time

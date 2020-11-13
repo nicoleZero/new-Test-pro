@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # coding: utf-8
 '''
-Mon May 25 00:00:00 2020
+Mon Nov  2 00:00:00 2020
 @author:jiangsisi
-测试步骤：添加设备，勾选已确认上述操控，选择密码可见
-测试结果：输入的密码正常显示
+测试步骤：添加设备，勾选已确认上述操控，下拉选择wifi，输入密码
+测试结果：wifi可选，密码正常输入
 '''
 from Test.Method import Actions
 import unittest, time
