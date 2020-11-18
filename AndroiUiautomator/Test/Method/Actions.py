@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# coding: utf-8
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 import logging
@@ -8,30 +10,24 @@ from appium import webdriver
 '''
 进行常用操作设置：显示等待操作
 '''
-User="18221730139"
-Pwd="18221730139"
+
 
 class find_elements:
-    def __init__(self):
-
-        self.app = AppiumBase.install_app()
-        self.driver = self.app.setUp()
-
-    def find_element(self,ways, icon, timeout=10):
-        logging.info("查找元素:" + icon)
-
+    @classmethod
+    def find_element(self,ways, icon,timeout=10):
+        self.driver = AppiumBase.install_app.setUp()
         try:
             if ways == "id":
                 element = WebDriverWait(self.driver, timeout, 1, NoSuchElementException).until(
-                    lambda driver: self.driver.find_element_by_id(icon))
+                    lambda driver: driver.find_element_by_id(icon))
                 return element
             elif ways == "class":
                 element = WebDriverWait(self.driver, timeout, 1, NoSuchElementException).until(
-                    lambda driver: self.driver.find_elements_by_class_name(icon))
+                    lambda driver: driver.find_elements_by_class_name(icon))
                 return element
             elif ways == "xpath":
                 element = WebDriverWait(self.driver, timeout, 1, NoSuchElementException).until(
-                    lambda driver: self.driver.find_element_by_xpath(icon))
+                    lambda driver: driver.find_element_by_xpath(icon))
                 return element
             else:
                 return "需要其他定位方式"

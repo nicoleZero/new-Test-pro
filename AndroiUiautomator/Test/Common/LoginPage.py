@@ -1,31 +1,35 @@
-#µÇÂ¼Ç°ºÍµÇÂ¼Ò³Ãæ
-#¿ÉÒÔÑ¡ÔñÓÊÏäµÇÂ¼£¬ÊÖ»úµÇÂ¼ºÍÎ¢ĞÅµÇÂ½,µÇÂ¼Ò³Ãæ
+#!/usr/bin/python
+# coding: utf-8
+#ç™»å½•å‰å’Œç™»å½•é¡µé¢
+#å¯ä»¥é€‰æ‹©é‚®ç®±ç™»å½•ï¼Œæ‰‹æœºç™»å½•å’Œå¾®ä¿¡ç™»é™†,ç™»å½•é¡µé¢
 from Test.Method import Actions
-elements = Actions.find_elements()
+#elements = Actions.find_elements()
 class Login:
+    def __init__(self):
+        self.elements = Actions.find_elements()
     def click_protocol(self,input="yes"):
         if input == "yes":
-            elements.find_element("id","org.ecomo.tap:id/iv_protocol").click()
+            self.elements.find_element("id","org.ecomo.tap:id/iv_protocol").click()
 
     def beforelogin(self):
-        loginelements = elements.find_element("id","org.ecomo.tap:id/btn_login").click()
+        loginelements = self.elements.find_element("id","org.ecomo.tap:id/btn_login").click()
         return loginelements
 
     def user_register(self):
-        registerelements = elements.find_element("id","org.ecomo.tap:id/btn_sign_up").click()
+        registerelements = self.elements.find_element("id","org.ecomo.tap:id/btn_sign_up").click()
         return registerelements
 
     def wx_login(self):
-        wxelements = elements.find_element("id","org.ecomo.tap:id/btn_webhcat").click()
+        wxelements = self.elements.find_element("id","org.ecomo.tap:id/btn_webhcat").click()
         return wxelements
 
     def afterlogin(self,user,pwd):
-        et_user = elements.find_element("id","org.ecomo.tap:id/et_user").send_keys(user)
-        et_pwd = elements.find_element("id","org.ecomo.tap:id/et_password").send_keys(pwd)
-        click_button = elements.find_element("class","android.widget.Button").click()
+        et_user = self.elements.find_element("id","org.ecomo.tap:id/et_user").send_keys(user)
+        et_pwd = self.elements.find_element("id","org.ecomo.tap:id/et_password").send_keys(pwd)
+        click_button = self.elements.find_element("class","android.widget.Button").click()
         return click_button
 
     def resetPwd(self):
-        resetpwd = elements.find_element("id","org.ecomo.tap:id/tv_forget").click()
+        resetpwd = self.elements.find_element("id","org.ecomo.tap:id/tv_forget").click()
         return resetpwd
 
