@@ -17,14 +17,13 @@ class install_app():
         cls.desire_caps = {}
         cls.desire_caps['deviceName'] = '127.0.0.1:62001'
         cls.desire_caps['appPackage'] = 'org.ecomo.tap'
-        #self.desire_caps['appPackage'] = 'com.vphone.launcher'
         cls.desire_caps['appActivity'] = 'org.ecomo.user.mvp.SplashActivity'
-        #self.desire_caps['appActivity'] ='.Launcher'
         cls.desire_caps['platformName'] = 'Android'
         cls.desire_caps['platformVersion'] = '7.1.2'
-        #self.desire_caps['unicodeKeyboard'] = True
+        cls.desire_caps['unicodeKeyboard'] = True
         cls.desire_caps['resetKeyboard'] = True
         cls.desire_caps['noReset'] = True
+        cls.desire_caps['automationName'] = "uiautomator2"
         #self.desire_caps['sessionOverride'] = True
         cls.desire_caps['noSign'] = True
         cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', cls.desire_caps)
@@ -50,12 +49,7 @@ class install_app():
     def tearDown(cls):
         cls.driver.quit()
 
-
-
-
-
-
-
+install_app=install_app().setUp()
 
 
 

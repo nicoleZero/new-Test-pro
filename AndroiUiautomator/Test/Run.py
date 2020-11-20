@@ -10,7 +10,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 import logging
-from Test.Common import AppiumBase
+from Test.Common.AppiumBase import install_app
 d = datetime.datetime.now()
 path = "\\".join(sys.path[0].split("\\")[:5])
 

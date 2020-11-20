@@ -7,15 +7,16 @@ import selenium
 from Test.Common import AppiumBase
 import time
 from appium import webdriver
+
+from Test.Common.AppiumBase import install_app
+
 '''
 进行常用操作设置：显示等待操作
 '''
-
-
+driver = install_app
 class find_elements:
-    @classmethod
-    def find_element(self,ways, icon,timeout=10):
-        self.driver = AppiumBase.install_app.setUp()
+    def find_element(self,ways, icon,driver=driver,timeout=10):
+        self.driver=driver
         try:
             if ways == "id":
                 element = WebDriverWait(self.driver, timeout, 1, NoSuchElementException).until(

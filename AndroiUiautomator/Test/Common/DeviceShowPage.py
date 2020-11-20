@@ -1,9 +1,11 @@
-#设备管理页面
+#!/usr/bin/python
+# coding: utf-8
+#璁惧绠＄悊椤甸潰
 from Test.Method import Actions
 elements = Actions.find_elements()
 class DeviceShow:
     '''
-    获得设备个数
+    鑾峰緱璁惧涓暟
     '''
     def getCounts(self):
         device_counts = elements.sign_up()
